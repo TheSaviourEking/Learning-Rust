@@ -76,6 +76,6 @@ To follow along or replicate my setup:
 This repository is primarily for personal learning, but feedback is always welcome. If you have suggestions for improvement or additional resources, feel free to open an issue or submit a pull request.
 
 ## License
-This repository is licensed under the MIT License. Feel free to use the content and examples as long as you give appropriate credit.
+This repository is licensed under the [MIT License](LICENSE). Feel free to use the content and examples as long as you give appropriate credit.
 
 ---
