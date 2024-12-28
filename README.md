@@ -59,7 +59,7 @@ For daily updates on my progress, see [`logs.md`](logs.md).
 ## How to Use This Repository
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/rust-learning-journey.git
+   git clone https://github.com/TheSaviourEking/Learning-rust.git
    ```
 
 2. Navigate to the specific chapter folder (`chapter-01-introduction`, `chapter-02-programming-concepts`, etc.) to explore the content.
@@ -79,5 +79,3 @@ This repository is primarily for personal learning, but feedback is always welco
 This repository is licensed under the MIT License. Feel free to use the content and examples as long as you give appropriate credit.
 
 ---
-
-Happy coding! 🚀
