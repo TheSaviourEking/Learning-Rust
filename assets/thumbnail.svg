@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#63b3ed"/>
+      <stop offset="100%" style="stop-color:#4299e1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Circuit Lines -->
+  <g stroke="#4299e1" stroke-width="1" opacity="0.3">
+    <path d="M0,100 C200,100 300,300 800,300" fill="none"/>
+    <path d="M0,150 C300,150 400,250 800,250" fill="none"/>
+    <path d="M0,200 C250,200 350,200 800,200" fill="none"/>
+  </g>
+  
+  <!-- Main Learning Path Visual -->
+  <g transform="translate(100, 200)">
+    <!-- Path Steps -->
+    <path d="M0,0 C200,-100 400,100 600,0" 
+          stroke="#63b3ed" 
+          stroke-width="4" 
+          fill="none" 
+          stroke-dasharray="8,8"/>
+    
+    <!-- Milestone Dots -->
+    <circle cx="0" cy="0" r="10" fill="#63b3ed"/>
+    <circle cx="200" cy="-33" r="10" fill="#63b3ed"/>
+    <circle cx="400" cy="33" r="10" fill="#63b3ed"/>
+    <circle cx="600" cy="0" r="10" fill="#63b3ed"/>
+  </g>
+  
+  <!-- Rust Logo - Modernized -->
+  <g transform="translate(400, 180) scale(0.6)">
+    <circle cx="0" cy="0" r="100" fill="url(#glowGradient)"/>
+    <!-- Gear shape -->
+    <path d="M0,-120 
+             L35,-114 L60,-104 L85,-85 L104,-60 L114,-35 L120,0 
+             L114,35 L104,60 L85,85 L60,104 L35,114 L0,120
+             L-35,114 L-60,104 L-85,85 L-104,60 L-114,35 L-120,0
+             L-114,-35 L-104,-60 L-85,-85 L-60,-104 L-35,-114 Z" 
+          fill="#ffffff"
+          opacity="0.9"/>
+    <!-- R symbol -->
+    <path d="M-40,-20 L-20,-20 L-20,20 L-40,20 L-40,-20 
+             M-20,-20 L0,-20 L20,0 L0,20 L-20,20" 
+          fill="#1a365d" stroke="#1a365d" stroke-width="4"/>
+  </g>
+  
+  <!-- Text Elements -->
+  <g font-family="Arial, sans-serif">
+    <text x="400" y="300" text-anchor="middle" font-size="32" fill="#ffffff" font-weight="bold">
+      Learning Rust
+    </text>
+    <text x="400" y="335" text-anchor="middle" font-size="18" fill="#bee3f8">
+      A Developer's Journey
+    </text>
+  </g>
+  
+  <!-- Floating Code Symbols -->
+  <g fill="#bee3f8" opacity="0.4">
+    <text x="150" y="100" font-family="monospace" font-size="24">{}</text>
+    <text x="600" y="150" font-family="monospace" font-size="24">()</text>
+    <text x="700" y="80" font-family="monospace" font-size="24">fn</text>
+    <text x="100" y="280" font-family="monospace" font-size="24">=></text>
+  </g>
+</svg>
