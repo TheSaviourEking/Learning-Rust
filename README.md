@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/thumbnail.svg" alt="Learning Rust Journey" width="800"/>
+</p>
+
 # Learning Rust: My Journey
 
 Welcome to my Rust learning journey! This repository serves as a centralized space where I document my progress, experiments, and projects as I dive into learning the Rust programming language. Rust is known for its memory safety, performance, and concurrency capabilities, and I am excited to explore it.
