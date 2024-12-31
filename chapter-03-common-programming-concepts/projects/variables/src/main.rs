@@ -16,5 +16,6 @@
 
 // Numeric Operations
 fn main() {
-    println!("Writing new rust");
+    println!("Last push for 2024");
+    println!("Give us more achievements soon O Lord");
 }
