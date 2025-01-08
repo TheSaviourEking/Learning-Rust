@@ -4,5 +4,5 @@ fn main() {
 
     s.push_str(", world!");
 
-    println!("{s}");
+    println!("{}", s);
 }
