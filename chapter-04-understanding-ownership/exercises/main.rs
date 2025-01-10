@@ -31,12 +31,11 @@
 fn main() {
     let string = first_word("hellojj world");
 
-    println!("{}", string);
+    println!("{}", string);s
 }
 
 fn first_word(s: &str) -> usize {
     let bytes = s.as_bytes();
-    println!("{:?} {}", bytes, b' ');
 
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
