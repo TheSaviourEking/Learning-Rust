@@ -29,13 +29,19 @@
 // }
 
 fn main() {
-    let string = first_word("hellojj world");
+    // let string = first_word("hellojj world");
+    let (first, second) = second_word("hellojjworld");
 
-    println!("{}", string);s
+    println!("{}, {}", first, second);
 }
 
 fn first_word(s: &str) -> usize {
     let bytes = s.as_bytes();
+
+    // let new = bytes.iter().enumerate();
+    let new = bytes.iter();
+
+    println!("{:?}", new);
 
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
@@ -44,4 +50,27 @@ fn first_word(s: &str) -> usize {
     }
 
     s.len()
+}
+
+fn second_word(s: &str) -> (usize, usize) {
+    let bytes = s.as_bytes();
+
+    let mut first = 0;
+    let mut second = 0;
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            first = i;
+            break;
+        }    
+    }
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            second = i;
+            break;
+        }    
+    }
+
+    (first, second)
 }
