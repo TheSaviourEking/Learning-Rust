@@ -7,6 +7,7 @@ fn main() {
     // let s2: &String = &s;
 
     // println!("{}", s2);
+    
 
     let word = first_word(&s);
     // let word = second_word(& s);
